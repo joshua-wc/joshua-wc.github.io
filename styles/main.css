@@ -30,6 +30,8 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     background-color: skyblue;
+    height: 70vh;
+    width: 35vw;
 }
 
 .image-greeting {
@@ -37,11 +39,13 @@ body {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-
+    height: 70vh;
+    width: 65vw;
 }
 
 .image-greeting img {
     height: 40vh;
+    width: fit-content;
 }
 
 .footer {
