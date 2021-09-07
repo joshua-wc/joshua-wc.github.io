@@ -8,9 +8,19 @@ body {
     align-items: center;
     justify-content: space-evenly;
     height: 30vh;
+    max-width: 100vw;
     background: rgb(219, 142, 107);
 }
 
 .subtitle {
     font-style: italic;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100vw;
+    height: 70vh;
 }
