@@ -1,0 +1,16 @@
+body {
+    font-family: "DejaVu Sans Mono", Courier, monospace
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30vh;
+    background: rgb(219, 142, 107);
+}
+
+.subtitle {
+    font-style: italic;
+}
