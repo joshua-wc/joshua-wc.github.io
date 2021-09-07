@@ -32,6 +32,14 @@ body {
     background-color: skyblue;
 }
 
+.image-greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
 .footer {
     display: flex;
     flex-direction: column;
