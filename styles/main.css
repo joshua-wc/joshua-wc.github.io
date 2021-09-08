@@ -45,7 +45,7 @@ body {
     justify-content: center;
 }
 
-.greeting-image {
+.body {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -63,7 +63,7 @@ body {
 }
 
 .image img {
-    object-fit: cover;
+    object-fit: fill;
     max-height: 50vh;
     max-width: 80vw;
 }
