@@ -45,10 +45,26 @@ body {
     justify-content: center;
 }
 
-.greeting {
+.greeting-image {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: start;
     height: 75vh;
     width: 80vw;
     background-color: peru;
+}
+
+.image {
+    background-color: pink;
+    width: 80vw;
+    height: 50vh;
+
+}
+
+.greeting {
+    width: 80vw;
+    height: 25vh;
 }
 
 .footer {
