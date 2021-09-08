@@ -17,6 +17,11 @@ body {
     font-style: italic;
 }
 
+.main {
+    display: flex;
+    flex: 1;
+    justify-content: start;
+}
 
 
 .sidebar {
