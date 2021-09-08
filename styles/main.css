@@ -55,8 +55,8 @@ body {
     width: 75vw;
 }
 
-.image-greeting img {
-    object-fit: cover;
+.image {
+    flex-grow: 2;
 }
 
 .greeting {
