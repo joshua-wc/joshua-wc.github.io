@@ -57,13 +57,11 @@ body {
 
 .image {
     flex-grow: 2;
+    background-image: url(/Images/matrix.jpg);
+    object-fit: cover;
 }
 
-.image img {
-    object-fit: contain;
-    max-height: 50%;
-    margin: auto;
-}
+
 
 .greeting {
     margin: 15px;
