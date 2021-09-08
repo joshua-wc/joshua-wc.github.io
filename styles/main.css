@@ -59,8 +59,13 @@ body {
     flex-grow: 2;
 }
 
+.image img {
+    object-fit: contain;
+}
+
 .greeting {
     margin: 15px;
+    flex-grow: 1;
 }
 
 .footer {
