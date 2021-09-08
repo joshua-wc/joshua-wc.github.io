@@ -48,14 +48,16 @@ body {
 }
 
 .image-greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     max-height: 75vh;
     max-width: 75vw;
 
 }
 
 .image {
-    max-width: 75vw;
-    height: 50vh;
+    flex-basis: 75vw;
 }
 
 
