@@ -66,6 +66,7 @@ body {
 .greeting {
     margin: 15px;
     flex-grow: 1;
+    font-size: 18px;
 }
 
 .footer {
