@@ -55,9 +55,8 @@ body {
     width: 75vw;
 }
 
-.image {
-    width: 100%;
-    max-height: 45vh;
+.image-greeting img {
+    object-fit: cover;
 }
 
 .greeting {
