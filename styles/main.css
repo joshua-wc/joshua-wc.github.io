@@ -57,7 +57,6 @@ body {
 
 .image {
     flex-grow: 2;
-    background-image: url(/Images/matrix.jpg);
     object-fit: cover;
     max-width: fit-content;
     max-height: fit-content;
