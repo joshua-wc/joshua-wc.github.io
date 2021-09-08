@@ -83,6 +83,12 @@ body {
     background-color: teal;
 }
 
+.entry {
+    max-width: 80vw;
+    max-height: 75vh;
+    background-color: hsla(350, 50%, 81%, 0.883);
+}
+
 a {
     color: initial;
 }
