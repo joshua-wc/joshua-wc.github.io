@@ -103,6 +103,12 @@ body {
     line-height: 20px;
 }
 
+.entry {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
 a {
     color: initial;
 }
@@ -114,4 +120,5 @@ a:hover {
 #tech-2 {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
 }
