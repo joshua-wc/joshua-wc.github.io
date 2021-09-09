@@ -91,9 +91,12 @@ body {
 }
 
 .entry {
-    max-width: 80vw;
+    width: 80vw;
     max-height: 75vh;
     background-color: hsla(350, 50%, 81%, 0.883);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .entry p {
@@ -103,11 +106,6 @@ body {
     line-height: 20px;
 }
 
-.entry {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
 
 a {
     color: initial;
