@@ -49,7 +49,7 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     height: 75vh;
     width: 80vw;
     background-color: peru;
