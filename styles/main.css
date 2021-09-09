@@ -64,13 +64,18 @@ body {
 
 .image img {
     object-fit: fill;
-    max-height: 50vh;
+    max-height: 60vh;
     width: 80vw;
 }
 
 .greeting {
     width: 80vw;
-    height: 25vh;
+    height: 15vh;
+}
+
+.greeting p {
+    margin: 10px;
+    font-size: 20px;
 }
 
 .footer {
