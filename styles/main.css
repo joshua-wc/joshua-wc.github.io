@@ -122,3 +122,16 @@ a:hover {
     flex-direction: row;
     align-items: stretch;
 }
+
+.explanation {
+    width: 50%;
+    height: 100%;
+}
+
+.examples {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
