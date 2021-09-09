@@ -109,6 +109,7 @@ body {
 
 a {
     color: initial;
+    border: 5px;
 }
 
 a:hover {
