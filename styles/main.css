@@ -137,6 +137,7 @@ a:hover {
 
 .examples img {
     flex-shrink: 3;
+    max-height: 50%;
 }
 
 .explanation p {
