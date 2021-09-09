@@ -133,11 +133,13 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .examples img {
     flex-shrink: 3;
     max-height: 50%;
+    object-fit: contain;
 }
 
 .explanation p {
