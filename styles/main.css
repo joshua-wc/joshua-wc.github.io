@@ -125,6 +125,7 @@ a:hover {
 .explanation {
     width: 50%;
     max-height: 75vh;
+    font-size: 14px;
 }
 
 .examples {
@@ -133,4 +134,5 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    font-size: 10px;
 }
