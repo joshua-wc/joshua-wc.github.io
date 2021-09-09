@@ -96,6 +96,13 @@ body {
     background-color: hsla(350, 50%, 81%, 0.883);
 }
 
+.entry p {
+    margin: 15px;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
 a {
     color: initial;
 }
