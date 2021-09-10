@@ -149,6 +149,6 @@ a:hover {
 
 .examples p {
     font-size: 12px;
-    margin: 0px;
-    padding: 0px;
+    margin: 5px;
+    padding: 10px, 0px, 30px;
 }
