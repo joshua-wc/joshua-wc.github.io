@@ -141,7 +141,6 @@ a:hover {
     flex-shrink: 3;
     max-height: 50%;
     object-fit: contain;
-    position: fixed;
 }
 
 .explanation p {
