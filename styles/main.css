@@ -129,7 +129,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 1 1 0;
+    flex: 0 1 75vh;
 }
 
 .examples {
@@ -139,7 +139,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1 1 0;
+    flex: 0 1 75vh;
     
 }
 
