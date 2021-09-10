@@ -136,21 +136,27 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow-y: auto;
+    flex-basis: 0;
 }
 
 .examples img {
     flex-shrink: 3;
     max-height: 50%;
     object-fit: contain;
+    flex-basis: 0;
+
 }
 
 .explanation p {
     font-size: 15px;
+    flex-basis: 0;
+
 }
 
 .examples p {
     font-size: 12px;
     margin: 5px;
     padding: 10px, 0px, 30px, 0px;
+    flex-basis: 0;
+
 }
