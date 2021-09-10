@@ -126,6 +126,7 @@ a:hover {
 .explanation {
     width: 50%;
     max-height: 75vh;
+    overflow: initial;
 }
 
 .examples {
