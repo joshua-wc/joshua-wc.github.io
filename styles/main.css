@@ -26,7 +26,7 @@ body {
 
 .sidebar {
     background-color: skyblue;
-    height: 75vh;
+    max-height: 100%;
     width: 20vw;
 }
 
@@ -92,7 +92,7 @@ body {
 
 .entry {
     width: 80vw;
-    max-height: 75vh;
+    height: 75vh;
     background-color: hsla(350, 50%, 81%, 0.883);
     display: flex;
     flex-direction: column;
@@ -117,49 +117,30 @@ a:hover {
 }
 
 #tech-2 {
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    height: 100vh;
-    flex: 0 1 100vh;
-}
-
-.explanation {
-    width: 50%;
-    max-height: 75vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 0 1 75vh;
+    height: 100%;
 }
 
 .examples {
-    width: 50%;
-    max-height: 75vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    flex: 0 1 75vh;
-    
+    height: 70%;
+    margin: 10px;
+
 }
 
 .examples img {
-    object-fit: contain;
-    flex: 1 2 0;
-
-}
-
-.explanation p {
-    font-size: 15px;
-    flex: 1 1 0;
-
+    width: 30%;
 }
 
 .examples p {
     font-size: 12px;
-    margin: 5px;
-    padding: 10px, 0px, 30px, 0px;
-    flex: 1 1 0;
+    max-width: 35vw;
+}
 
+.explanation p {
+    font-size: 14px;
+    max-width: 30vw;
 }
