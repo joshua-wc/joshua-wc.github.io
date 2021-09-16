@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link href="/styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+
+    <section class="header">
+      <div class="title">
+          <h1></h1>
+      </div>
+      <div class="subtitle">
+          <h2></h2>
+          <h3></h3>
+      </div>
+      <div>
+        <a href="/index.html">Home</a>
+      </div>
+  </section>
+  <section class="main">
+    <section class="sidebar">
+      <table>
+          <th>Tech</th>
+          <tr>
+              <td><a href="https://joshua-wc.github.io/blog/tech-1-blog.html">Week 1: Stories and Legends</a></td>
+          </tr>
+          <tr>
+              <td><a href="blog/tech-2-blog.html">Week 2: CSS Class vs ID</a></td>
+          </tr>
+          <tr><td><a href="blog/tech-3-blog.html">Week 3: Javascript Fundamentals</td>
+          </tr>
+          <tr><td>Week 4</td>
+          </tr>
+          <tr><td>Week 5</td>
+          </tr>
+          <th>Core</th>
+          <tr><td><a href="core-1-blog.html">Week 1: Identity and Values</a></td>
+          </tr>
+          <tr><td><a href="core-2-blog.html">Week 2: Learning Plan</a></td>
+          </tr>
+          <tr><td><a href="core-3-blog.html">Week 3: Emotional Intelligence</a></td>
+          </tr>
+          <tr><td>Week 4</td>
+          </tr>
+          <tr><td>Week 5</td>
+          </tr>
+      </table>
+  </section>
+<section class="entry">
+   <p>
+     HTML and CSS are two sides of the same blimp. The HTMl is the frame, the fabric, and the gas keeping it afloat. CSS is the huge advertisement in loud 
+     colours and eye-popping fonts splashed across the front. But what if you want your advertisement to change based on the time of day? That's where
+     Javascript comes in.
+   </p>
+
+   <p>
+     Unfortunately, Javascript doesn't have anything to do inherently with web development, in the way that HTML and CSS do (contrary to what I said
+     earlier, these are programming languages for websites, not engineering and graphic design tools). Javascript is a pretty powerful language that is 
+     capable of a lot, but it doesn't intrinsically know what HTML or CSS is, let alone what they are talking about. That is where the DOM (Document 
+     Object Model) steps in to bridge the gap. The DOM is a way for Javascript to understand the references that HTML and CSS are making. It's like a 
+     translator that can convert things like classes, ids, or HTML elements into things that Javascript can understand and manipulate. It allows you to do 
+     things like assign and alter values directly onto elements of your HTML or your CSS classes, and add events to them; so that when you click on a button,
+     for example, the fundamental building blocks of your code can be altered!
+   </p>
+
+   <p>
+     One of the most powerful tools Javascript has to exercise this kind of manipulation are things called functions. A function is basically a piece of 
+     logic that can deliver instructions when the function is called, and these instructions can be conditional (that is, they will ony trigger if certain
+     things are true, or a certain state is reached). The DOM has it's own set of default functions that you can use to do things like access HTML elements or 
+     prevent the default behaviour of things like right-clicking on something, but you can write your own functions too! These functions are hugely flexible 
+     in what you can accomplish, since you can set practically all of the parameters for them yourself, and make them as complex as you like; with conditions 
+     branching off into limitless possible results as you run through the logic of your function sequentially.
+   </p>
+
+   <p>
+     This idea of running through a function in order is what is known as control flow. Think about driving a car; an incredibly complex activity with a lot 
+     of variable involved. Starting the car requires certain things to happen in the right order; firstly the car won't start if it has no fuel, or a dead 
+     battery. Assuming those things aren't true, you have to activate the ignition to start the car, and then you're constantly adjusting the parameters of 
+     steering, braking and accelarating as you move. As you head to your destination you will be in a kind of holding pattern until you need to make a change 
+     in direction; you stay driving down the street you are on until you arrive at the street you next need to turn on to. This is kind of like something in 
+     programming called a loop; where you cycle over a particular part of a function for an amount of time, until a particular threshold or condition is met. 
+     Loops can be contained within functions, or they can be the whole function itself!
+   </p>
+
+   <p>
+     Loops are particularly helpful for running through stacks of data very quickly. Javascript has two particular ways that it can store groups of data; 
+     arrays and objects. On surface level they appear very similar, but for a couple of key differences. Arrays use square brackets, and look like this:
+
+      var array = [4, 2, "hello", "world"] 
+     
+     Objects, on the other hand, use curly braces, and look more like this: 
+
+     var object = {
+       name: "josh",
+       age: 25,
+       isCool: true,
+       bestFriend: "sunny"
+     }
+
+     Notice how the object  has it's data grouped in pairs, separated by a comma. These pairs 
+     are know as a key:value pair, and these are the secret to an object's power. Both objects and arrays can be accessed by an indexing system. Arrays 
+     use something called bracket notation, which would look like this:
+
+     array[0]
+
+     Because computers index beginning at 0 instead of 1, the first item of an array will always be [0], so this would give us the number 4 in our example. 
+     Objects can also use bracket notation, as well as using something called dot notation. If you don't know the position of the value you want in the object, 
+     but know the name of the key, you can access it like this:
+
+     object.age 
+
+     This would return the value 25 from our example object. Objects and arrays can get pretty wild, with arrays inside arrays, arrays inside objects and even 
+     arrays inside objects inside bigger objects!
+   </p>
+  </section>    
+</section>
+  
+  </body>
+</html>
