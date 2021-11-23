@@ -3,6 +3,8 @@ body {
     margin: 0px;
 }
 
+
+
 .header {
     min-height: 25vh;
     max-height: fit-content;
@@ -109,5 +111,11 @@ a {
 
 a:hover {
     background-color: lawngreen;
+}
+
+@media (max-width: 320px) {
+    body {
+        font-size: 46px;
+    }
 }
 
