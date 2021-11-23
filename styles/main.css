@@ -3,26 +3,6 @@ body {
     margin: 0px;
 }
 
-@media (max-width: 320px) {
-    .greeting {
-        
-        background-color: blue;
-    }
-}
-
-@media (max-width: 768px) {
-    .greeting {
-        
-        background-color: rgb(233, 14, 222);
-    }
-}
-
-@media (min-width: 1200px) {
-    .greeting {
-        
-        background-color: rgb(16, 133, 5);
-    }
-}
 
 
 .header {
@@ -74,7 +54,7 @@ body {
 
 .greeting {
     width: 80%;
-    background-color: peru;
+    
     text-align: justify;
     font-size: 20px;
 }
@@ -108,7 +88,7 @@ body {
     height: auto;
     background-color: hsla(350, 50%, 81%, 0.883);
     padding: 10px;
-
+    
 }
 
 .entry p {
@@ -133,5 +113,25 @@ a:hover {
     background-color: lawngreen;
 }
 
+@media (max-width: 320px) {
+    .greeting {
+        
+        background-color: blue;
+    }
+}
+
+@media (max-width: 768px) {
+    .greeting {
+        
+        background-color: rgb(233, 14, 222);
+    }
+}
+
+@media (min-width: 1200px) {
+    .greeting {
+        
+        background-color: peru;
+    }
+}
 
 
