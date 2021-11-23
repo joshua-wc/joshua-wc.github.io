@@ -120,7 +120,7 @@ a:hover {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .greeting {
         
         background-color: rgb(233, 14, 222);
