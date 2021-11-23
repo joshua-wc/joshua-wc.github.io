@@ -6,7 +6,21 @@ body {
 @media (max-width: 320px) {
     .greeting {
         
-        font-size: 8px;
+        background-color: blue;
+    }
+}
+
+@media (max-width: 768px) {
+    .greeting {
+        
+        background-color: rgb(233, 14, 222);
+    }
+}
+
+@media (min-width: 1200px) {
+    .greeting {
+        
+        background-color: rgb(16, 133, 5);
     }
 }
 
