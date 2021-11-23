@@ -3,6 +3,12 @@ body {
     margin: 0px;
 }
 
+@media (max-width: 320px) {
+    .greeting {
+        
+        font-size: 8px;
+    }
+}
 
 
 .header {
@@ -113,10 +119,5 @@ a:hover {
     background-color: lawngreen;
 }
 
-@media (max-width: 320px) {
-    .greeting {
-        
-        font-size: 8px;
-    }
-}
+
 
