@@ -113,6 +113,13 @@ a:hover {
     background-color: lawngreen;
 }
 
+@media (max-width: 768px) {
+    .greeting {
+        
+        background-color: rgb(233, 14, 222);
+    }
+}
+
 @media (max-width: 320px) {
     .greeting {
         
@@ -120,12 +127,6 @@ a:hover {
     }
 }
 
-@media (min-width: 768px) {
-    .greeting {
-        
-        background-color: rgb(233, 14, 222);
-    }
-}
 
 @media (min-width: 1200px) {
     .greeting {
